@@ -28,7 +28,7 @@ const Tokens: React.FC = () => {
           </div>
           <div className="mt-[4%]">
             <span className="flex flex-col justify-start align-middle" data-aos="zoom-in" data-aos-duration="1000">
-              <h2 className="lg:text-[35px] text-[30px] pl-[30%] pr-[20px] text-end uppercase">
+              <h2 className="lg:text-[35px] text-[30px] pl-[30%] pr-[20px] text-end uppercase text-white">
                 50% Presale
               </h2>
               <Image
@@ -41,7 +41,7 @@ const Tokens: React.FC = () => {
             </span>
             <div className="pl-[10%]">
               <span className="flex flex-col justify-start align-middle" data-aos="zoom-in" data-aos-duration="1000">
-                <h3 className="lg:text-[25px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none">
+                <h3 className="lg:text-[25px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none text-white">
                   20% Marketing and promotion
                 </h3>
                 <Image
@@ -54,7 +54,7 @@ const Tokens: React.FC = () => {
               </span>
               <div className="pl-8%]">
                 <span className="flex flex-col justify-start align-middle" data-aos="zoom-in" data-aos-duration="1000">
-                  <h3 className="lg:text-[23px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none">
+                  <h3 className="lg:text-[23px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none text-white">
                     10% liquidity pool
                   </h3>
                   <Image
@@ -66,7 +66,7 @@ const Tokens: React.FC = () => {
                   />
                 </span>
                 <span className="flex flex-col justify-start align-middle" data-aos="zoom-in" data-aos-duration="1000">
-                  <h3 className="lg:text-[23px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none">
+                  <h3 className="lg:text-[23px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none text-white">
                     10% partying with the community
                   </h3>
                   <Image
@@ -78,7 +78,7 @@ const Tokens: React.FC = () => {
                   />
                 </span>
                 <span className="flex flex-col justify-start align-middle" data-aos="zoom-in" data-aos-duration="1000">
-                  <h3 className="lg:text-[23px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none">
+                  <h3 className="lg:text-[23px] text-[20px] pl-[30%] pr-[20px] uppercase text-end lg:text-none text-white">
                     10% the team
                   </h3>
                   <Image

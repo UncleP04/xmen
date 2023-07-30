@@ -19,8 +19,8 @@ const About: React.FC = () => {
                 <h1 className="text-white text-[5em] font-bold uppercase text-center self-center mt-10" data-aos="zoom-in" data-aos-duration="1000">About</h1>
             </div>
             <div className="lg:w-[500px] lg:p-10">
-                <p className="text-[20px] lg:text-[25px]" data-aos="zoom-in" data-aos-duration="1000">XMEN is a memecoin to merry and party across the globe.</p>
-                <p className="text-[20px] lg:text-[25px]" data-aos="zoom-in" data-aos-duration="1000">With total supply of <span className="text-secondary">44 billion</span> tokens inspired from
+                <p className="text-[20px] lg:text-[25px] text-white" data-aos="zoom-in" data-aos-duration="1000">XMEN is a memecoin to merry and party across the globe.</p>
+                <p className="text-[20px] lg:text-[25px] text-white" data-aos="zoom-in" data-aos-duration="1000">With total supply of <span className="text-secondary">44 billion</span> tokens inspired from
                  the remarkable 44 billion dollars Elon Musk used to acquire Twitter</p>
             </div>
         </div>
