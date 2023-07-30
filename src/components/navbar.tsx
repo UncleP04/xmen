@@ -26,22 +26,22 @@ const Navbar: React.FC = () => {
           />
         </div>
         <div className={`${isOpen ? 'h-[110vh] lg:h-auto top-[-20px]' : 'responsive opacity-0 lg:opacity-100'} fixed  lg:relative list-none navbar flex flex-col lg:flex-row justify-between align-middle lg:w-[70%] w-[100%] lg:bg-transparent bg-primary sm:top-0 sm:left-0`}>
-          <ul className="float-left flex flex-col lg:flex-row justify-evenly align-middle gap-[40px] mt-[5%] lg:mt-0 h-[60%] lg:h-0">
-            <li className="self-center text-center lg:my-0 my-[3%] text-white">
+          <ul className="float-left flex flex-col lg:flex-row justify-evenly align-middle gap-[40px] mt-[80px] lg:mt-0 h-[60%] lg:h-0">
+            <li className="self-center text-center lg:my-0 my-[3%] text-white text-[25px]">
               <Link href="#home" onClick={() => setIsOpen(!isOpen)}>Home</Link>
             </li>
-            <li className="self-center text-center my-[3%] lg:my-0 text-white">
+            <li className="self-center text-center my-[3%] lg:my-0 text-white text-[25px]">
               <Link href="#about" onClick={() => setIsOpen(!isOpen)}>About</Link>
             </li>
-            <li className="self-center text-center lg:my-0 my-[3%] text-white">
+            <li className="self-center text-center lg:my-0 my-[3%] text-white text-[25px]">
               <Link href="#tokens" onClick={() => setIsOpen(!isOpen)}>Tokenomics</Link>
             </li>
-            <li className="self-center text-center lg:my-0 my-[3%] text-white">
+            <li className="self-center text-center lg:my-0 my-[3%] text-white text-[25px]">
               <Link href="#party" onClick={() => setIsOpen(!isOpen)}>Party</Link>
             </li>
           </ul>
           <div className="self-center text-center pt-[70px] lg:pt-0 h-[40%] lg:h-0">
-            <Link href="" className="rounded-lg py-2 px-4 text-white bg-button">
+            <Link href="" className="rounded-lg py-2 px-4 text-white bg-button text-[20px]">
               Join Now
             </Link>
           </div>
@@ -49,12 +49,12 @@ const Navbar: React.FC = () => {
         <button
           type="button"
           onClick={toggleMenu}
-          className="flex flex-col justify-between align-middle w-20 z-50 fixed top-[5%] right-[5%] lg:hidden"
+          className="flex flex-col justify-between align-middle w-20 z-50 fixed top-[5%] right-[5%] lg:hidden bg-transparent"
           
         >
-          <div className="w-7 h-[5px] hover:mb-2 bg-white self-end m-1 border border-black"></div>
-          <div className="w-4 h-[5px] bg-white self-end m-1 border border-black"></div>
-          <div className="w-7 h-[5px] hover:mt-2 bg-white self-end m-1 border border-black"></div>
+          <div className="w-7 h-[5px] hover:mb-2 bg-white self-end m-1 border"></div>
+          <div className="w-4 h-[5px] bg-white self-end m-1 border"></div>
+          <div className="w-7 h-[5px] hover:mt-2 bg-white self-end m-1 border"></div>
         </button>
       </nav>
     </div>
