@@ -6,13 +6,13 @@ import Logo from '../../public/Images/logo.png'
 const Header: React.FC = () => {
   return (
     <div>
-      <section className="relative w-[100%] flex justify-center align-middle h-auto overflow-x-hidden bg-primary">
+      <section className="relative w-[100%] flex justify-center align-middle h-auto overflow-x-hidden bg-primary inset-0 pb-[150px]">
         <Image
           src={BackgroundImg}
           alt="backImage.png"
           width={700}
           height={300}
-          className="lg:w-[400px] w-[300px] lg:h-[600px] h-[500px] fixed top-0 lg:left-[30%] left-0"
+          className="lg:w-[400px] w-[300px] lg:h-[600px] h-[500px] fixed top-0 object-center object-cover"
         />
 
         <div className="mt-[15%] lg:mt-[3%] z-10">
