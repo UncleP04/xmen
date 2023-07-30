@@ -5,7 +5,7 @@ import BackgroundImg from "../../public/Images/bgTwo.png";
 const About: React.FC = () => {
   return (
     <div>
-      <section className="relative w-[100%] flex justify-center align-middle bg-primary h-[100vh] gap-20 overflow-x-hidden">
+      <section className="relative w-[100%] flex justify-center align-middle bg-primary h-auto gap-20 overflow-x-hidden">
         <Image
           src={BackgroundImg}
           alt="backImage.png"
