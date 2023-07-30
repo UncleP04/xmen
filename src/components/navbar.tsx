@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/Images/logo.png";
-import { useEffect } from 'react';
 
 
 const Navbar: React.FC = () => {
