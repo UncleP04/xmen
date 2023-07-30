@@ -6,7 +6,7 @@ import Logo from '../../public/Images/logo.png'
 const Header: React.FC = () => {
   return (
     <div>
-      <section className="relative w-[100%] flex justify-center align-middle lg:h-auto h-[100vh] overflow-x-hidden bg-primary py-[10%]">
+      <section className="relative w-[100%] flex justify-center align-middle lg:h-auto h-[100vh] overflow-x-hidden bg-primary">
         <Image
           src={BackgroundImg}
           alt="backImage.png"

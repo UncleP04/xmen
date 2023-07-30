@@ -49,7 +49,7 @@ const Tokens: React.FC = () => {
                   alt="line.png"
                   width={700}
                   height={300}
-                  className=""
+                  className="w-[100%]"
                 />
               </span>
               <div className="pl-8%]">
@@ -62,7 +62,7 @@ const Tokens: React.FC = () => {
                     alt="line.png"
                     width={700}
                     height={300}
-                    className=""
+                    className="w-[100%]"
                   />
                 </span>
                 <span className="flex flex-col justify-start align-middle" data-aos="zoom-in" data-aos-duration="1000">
@@ -74,7 +74,7 @@ const Tokens: React.FC = () => {
                     alt="line.png"
                     width={700}
                     height={300}
-                    className=""
+                    className="w-[100%]"
                   />
                 </span>
                 <span className="flex flex-col justify-start align-middle" data-aos="zoom-in" data-aos-duration="1000">
@@ -86,7 +86,7 @@ const Tokens: React.FC = () => {
                     alt="line.png"
                     width={700}
                     height={300}
-                    className=""
+                    className="w-[100%]"
                   />
                 </span>
               </div>
