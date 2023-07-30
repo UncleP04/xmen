@@ -8,7 +8,7 @@ import Party from "@/components/party";
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <div className="bg-primary">
       <div className="">
         <Navbar />
         <Sidebar />
