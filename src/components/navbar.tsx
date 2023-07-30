@@ -4,13 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/Images/logo.png";
 import { useEffect } from 'react';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+
 
 const Navbar: React.FC = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +17,7 @@ const Navbar: React.FC = () => {
   return (
     <div>
       <nav className="flex flex-col lg:flex-row w-[100%] justify-between align-middle bg-transparent px-[4%] relative z-20">
-        <div className="w-16 h-16" data-aos="zoom-in" data-aos-duration="1000">
+        <div className="w-16 h-16">
           <Image
             src={Logo}
             alt="logo.png"
@@ -31,7 +27,7 @@ const Navbar: React.FC = () => {
           />
         </div>
         <div className={`${isOpen ? 'h-[110vh] lg:h-auto top-[-20px]' : 'responsive opacity-0 lg:opacity-100'} fixed  lg:relative list-none navbar flex flex-col lg:flex-row justify-between align-middle lg:w-[70%] w-[100%] lg:bg-transparent bg-primary sm:top-0 sm:left-0`}>
-          <ul className="float-left flex flex-col lg:flex-row justify-evenly align-middle gap-[40px] mt-[5%] lg:mt-0 h-[60%] lg:h-0" data-aos="zoom-in" data-aos-duration="1000">
+          <ul className="float-left flex flex-col lg:flex-row justify-evenly align-middle gap-[40px] mt-[5%] lg:mt-0 h-[60%] lg:h-0">
             <li className="self-center text-center lg:my-0 my-[3%] text-white">
               <Link href="#home">Home</Link>
             </li>
@@ -45,7 +41,7 @@ const Navbar: React.FC = () => {
               <Link href="#party">Party</Link>
             </li>
           </ul>
-          <div className="self-center text-center pt-[70px] lg:pt-0 h-[40%] lg:h-0" data-aos="zoom-in" data-aos-duration="1000">
+          <div className="self-center text-center pt-[70px] lg:pt-0 h-[40%] lg:h-0">
             <Link href="" className="rounded-lg py-2 px-4 text-white bg-button">
               Join Now
             </Link>
