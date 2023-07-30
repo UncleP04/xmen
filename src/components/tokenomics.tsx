@@ -94,7 +94,7 @@ const Tokens: React.FC = () => {
           </div>
         </div>
         <div className="w-[100%] text-center h-[40vh] pt-[15%]">
-          <div className="my-8" data-aos="zoom-in" data-aos-duration="1000">
+          <div className="mt-8 mb-3" data-aos="zoom-in" data-aos-duration="1000">
             <button>
               <Link href="" className="py-2 px-6 rounded-md bg-temp text-white font-semibold uppercase md:text-[30px] text-[25px]">
                 Join the party
